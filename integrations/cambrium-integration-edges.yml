@@ -1,0 +1,16 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/cambrium/integrations
+- https://n8n.io/integrations/cambrium/
+- https://composio.dev/toolkits/cambrium
+- https://monid.ai/tools/cambrium
+checked:
+- https://composio.dev/toolkits/cambrium
+- https://monid.ai/tools/cambrium
+- https://n8n.io/integrations/cambrium/
+- https://zapier.com/apps/cambrium/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

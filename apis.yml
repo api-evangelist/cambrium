@@ -1,30 +1,66 @@
 aid: cambrium
+
 name: Cambrium
-description: 'Cambrium is a molecular intelligence company engineering advanced materials that outperform. From personal care to textiles, we design and manufacture materials that deliver real results today and for generations to come.'
+
+image: https://framerusercontent.com/images/GLeBE7pKiOm7RmQM8fk7EOExTs.png
+
+description: Cambrium is a molecular intelligence company engineering advanced materials that outperform. From personal care to textiles, we design
+  and manufacture materials that deliver real results today and for generations to come.
+
 url: https://raw.githubusercontent.com/api-evangelist/cambrium/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
 - Company
 - Molecular
 - Materials
 - Biotechnology
 - Innovation
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- gradient-ventures
+
 common:
+- type: Hosts
+  url: hosts/cambrium-hosts.yml
+- type: PrivacyPolicy
+  url: https://www.cambrium.bio/privacy
 - type: DomainSecurity
   url: security/cambrium-domain-security.yml
 - type: Website
   url: https://www.cambrium.bio/
+
+apis: []
+
+x-backed-by:
+- gradient-ventures
+
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Cambrium's website describes molecular materials services and provides no public API documentation.
+  evidence:
+  - url: https://www.cambrium.bio/
+    status: 200
+  checked: '2026-10-25'
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
