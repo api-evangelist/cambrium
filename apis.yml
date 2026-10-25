@@ -1,7 +1,6 @@
 aid: cambrium
 name: Cambrium
-description: 'Cambrium is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by gradient-ventures) and added to the network as a stub for full-pipeline profiling.'
+description: 'Cambrium is a molecular intelligence company engineering advanced materials that outperform. From personal care to textiles, we design and manufacture materials that deliver real results today and for generations to come.'
 url: https://raw.githubusercontent.com/api-evangelist/cambrium/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:vc-portfolio
@@ -12,6 +11,10 @@ created: '2026-10-24'
 modified: '2026-10-24'
 tags:
 - Company
+- Molecular
+- Materials
+- Biotechnology
+- Innovation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +24,7 @@ maintainers:
 x-backed-by:
 - gradient-ventures
 common:
+- type: DomainSecurity
+  url: security/cambrium-domain-security.yml
 - type: Website
   url: https://www.cambrium.bio/
